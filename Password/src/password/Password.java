@@ -39,8 +39,7 @@ public class Password {
     public static String generatePassword(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                 + "abcdefghijklmnopqrstuvwxyz"
-                + "0123456789"
-                + "!@#$%^&*()-_=+[]{}|;:'\",.<>?/";
+                + "0123456789.";
         StringBuilder password = new StringBuilder(length);
         Random random = new Random();
 
