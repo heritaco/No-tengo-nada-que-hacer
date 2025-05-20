@@ -1,0 +1,120 @@
+{
+
+  // Descargar TeX (no necesitas cosas feas si estas en Linux)
+  // Descargar miniconda, el default interpreter es a
+  
+  // Extensiones
+    // LaTeX Workshop
+    // Python
+      // autopep8
+      // Pylance
+      // Python Debugger
+      // Jupyter
+      // Jupyter Cell Tags
+      // Jupyter Keymap
+      // Jupyter Slideshow
+    // Code Spell Checker
+      // Spanish - Code Spell Checker
+
+
+
+  "git.autofetch": true,          // Habilitar la búsqueda automática de cambios en el repositorio
+  "editor.wordWrap": "on",        // Ajustar el texto automáticamente
+  "git.enableSmartCommit": true,  // Habilitar confirmaciones inteligentes
+
+
+  // Soporte de motores LaTeX
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+
+  // Recetas para elegir motor
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdfLaTeX",
+      "tools": ["pdflatex"]
+    },
+    {
+      "name": "XeLaTeX",
+      "tools": ["xelatex"]
+    },
+    {
+      "name": "LuaLaTeX",
+      "tools": ["lualatex"]
+    }
+  ],
+
+  // Configuración de la receta por defecto
+  "latex-workshop.latex.recipe.default": "XeLaTeX",
+
+  // Evitar compilación automática cuando queremos usar xelatex (se puede poner never, onFileChange o onSave)
+  "latex-workshop.latex.autoBuild.run": "onSave",
+
+  // Otras configuraciones útiles
+  "latex-workshop.intellisense.biblatexJSON.replace": {},
+
+  // Limpieza de archivos auxiliares al limpiar el proyecto
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot",
+    "*.out", "*.toc", "*.acn", "*.acr", "*.alg", "*.glg", "*.glo", "*.gls",
+    "*.ist", "*.fls", "*.log", "*.fdb_latexmk", "*.synctex.gz"
+  ],
+
+
+
+  // Spell checker en español
+  "cSpell.language": "es-ES",
+  "cSpell.enabledLanguageIds": ["latex", "plaintext", "markdown"],
+  "cSpell.allowCompoundWords": true,
+  "cSpell.userWords": [
+    "Malthus", "demografía", "infraestructura", "Piketty"
+  ],
+  "cSpell.languageSettings": [
+    {
+      "languageId": "latex",
+      "dictionaries": ["spanish"]
+    }
+  ],
+
+
+  // Python específico
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+
+  "python.defaultInterpreterPath": "/home/tu_usuario/miniconda3/envs/a/bin/python"
+}

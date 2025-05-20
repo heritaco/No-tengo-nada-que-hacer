@@ -1,0 +1,42 @@
+# cambiar a .py
+
+def suma( a,b ):
+  if a>0  and b>0:
+     return a+b
+  else: return 0
+
+def resta( a,b ):
+    if a>0  and b>0:
+         return a-b
+    else: return 0
+
+def multiplicación( a,b ):
+    if a>0  and b>0:
+         return a*b
+    else: return 0
+
+def division( a,b ):
+    if a>0  and b>0:
+         return a/b
+    else: return 0
+
+def potencia( a,b ):
+    if a>0  and b>0:
+         return a**b
+    else: return 0
+
+def raiz( a,b ):
+    if a>0  and b>0:
+         return a**(1/b)
+    else: return 0
+
+def factorial( a ):
+    if a>0:
+         return a
+    else: return 0
+
+
+print("Hola mundo")
+print(raiz(2,3))
+print(factorial(5))
+    
