@@ -1,6 +1,6 @@
 {
 
-  // Descargar TeX (no necesitas cosas feas si estas en Linux)
+  // Descargar TeX
   // Descargar miniconda, el default interpreter es a
   
   // Extensiones
@@ -15,6 +15,8 @@
       // Jupyter Slideshow
     // Code Spell Checker
       // Spanish - Code Spell Checker
+  // Markdown Preview Enhanced
+  // Markdown All in One
 
 
 
@@ -116,5 +118,9 @@
   },
 
 
-  "python.defaultInterpreterPath": "/home/tu_usuario/miniconda3/envs/a/bin/python"
+  "python.defaultInterpreterPath": "/home/tu_usuario/miniconda3/envs/a/bin/python",
+
+
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
 }
