@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.18)  19 MAY 2025 18:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.18)  27 MAY 2025 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/heri/Documents/No-tengo-nada-que-hacer/.Settings/resume/Heriberto-Espino-Montelongo
-(/home/heri/Documents/No-tengo-nada-que-hacer/.Settings/resume/Heriberto-Espino-Montelongo.tex
+**/home/heri/Documents/No-tengo-nada-que-hacer/.Settings/latex/Resume/Heriberto-Espino-Montelongo
+(/home/heri/Documents/No-tengo-nada-que-hacer/.Settings/latex/Resume/Heriberto-Espino-Montelongo.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ) (/usr/share/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
@@ -294,7 +294,7 @@ Package hyperref Info: Link coloring OFF on input line 29.
 * \marginparwidth=74.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -313,30 +313,44 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <5> on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
+Underfull \hbox (badness 10000) in paragraph at lines 52--59
+
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 67.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 145.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--111
 
  []
 
@@ -344,34 +358,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--147
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--283
-
- []
-
-
-
-[2] (./Heriberto-Espino-Montelongo.aux)
+] (./Heriberto-Espino-Montelongo.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -380,12 +367,12 @@ Package rerunfilecheck Info: File `Heriberto-Espino-Montelongo.out' has not chan
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11013 strings out of 475848
- 179013 string characters out of 5776013
- 684636 words of memory out of 5000000
- 33819 multiletter control sequences out of 15000+600000
- 571847 words of font info for 53 fonts, out of 8000000 for 9000
+ 10970 strings out of 475848
+ 178265 string characters out of 5776013
+ 683629 words of memory out of 5000000
+ 33779 multiletter control sequences out of 15000+600000
+ 573320 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 79i,5n,93p,361b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,5n,93p,427b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Heriberto-Espino-Montelongo.pdf (2 pages).
+Output written on Heriberto-Espino-Montelongo.pdf (1 page).
